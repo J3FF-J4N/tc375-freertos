@@ -1,0 +1,5 @@
+[target.tc162-htc-none]
+rustflags = ["-C", "link-args=-Llinker-scripts -Ttc37xA_memory.ld"]
+
+[build]
+target = "tc162-htc-none"

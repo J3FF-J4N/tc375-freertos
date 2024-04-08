@@ -1,0 +1,21 @@
+[package]
+name = "tc375-freertos"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#tc37x-hal = { path = "../tc37x-hal" }
+tc37x-rt = { path = "./tc37x-rt" }
+tc37x-pac = { path = "./tc37x-pac", features = [
+        "rt",
+        "src",
+        "stm0",
+        "stm1",
+        "stm2",
+        "port_00",
+] }
+embedded-hal = "0.2.7"
+nb = "1.0.0"
+defmt-print = "0.3.11"
