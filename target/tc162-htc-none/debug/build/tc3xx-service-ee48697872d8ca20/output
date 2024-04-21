@@ -1,0 +1,1 @@
+cargo:rustc-link-search=C:\HighTec\toolchains\rust\v1.0.0\examples\rust-tc375-lite-kit-example\target\tc162-htc-none\debug\build\tc3xx-service-ee48697872d8ca20\out

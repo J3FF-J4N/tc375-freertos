@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["disable_interrupts","enable_interrupts","mfcr","mtcr","read_cpu_core_id"]};

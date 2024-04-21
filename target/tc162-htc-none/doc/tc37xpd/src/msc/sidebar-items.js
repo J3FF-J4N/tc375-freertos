@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["msc_msc"],"struct":["MscMsc"]};

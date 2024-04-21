@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Pcl12_SPEC","Pcl13_SPEC","Pcl14_SPEC","Pcl15_SPEC"],"type":["Pcl12","Pcl13","Pcl14","Pcl15"]};

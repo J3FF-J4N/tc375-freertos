@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Vdroopreq_SPEC","Vdtov_SPEC","Vdtovclr_SPEC"],"type":["Vdroopreq","Vdtov","Vdtovclr"]};

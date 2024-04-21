@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["cerberus_cerberus"],"struct":["CerberusCerberus"]};

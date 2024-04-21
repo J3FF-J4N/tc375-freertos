@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["psi5y"],"type":["Psi5Y"]};

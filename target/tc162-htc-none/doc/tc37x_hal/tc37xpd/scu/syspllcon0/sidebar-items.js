@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Insel_SPEC","Moden_SPEC","Pllpwd_SPEC"],"type":["Insel","Moden","Pllpwd"]};

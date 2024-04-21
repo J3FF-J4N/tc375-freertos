@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["can_can"],"struct":["CanCan"]};

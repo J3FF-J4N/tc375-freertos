@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Ljtov_SPEC","Ljtovclr_SPEC"],"type":["Ljtov","Ljtovclr"]};

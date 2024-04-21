@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Endinit_SPEC"],"type":["Endinit"]};

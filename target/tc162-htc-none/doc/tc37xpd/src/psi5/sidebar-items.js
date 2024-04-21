@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["psi5_psi5"],"struct":["Psi5Psi5"]};

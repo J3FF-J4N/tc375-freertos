@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["gtmatomwx_"],"type":["GtmatoMwx"]};

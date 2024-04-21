@@ -1,0 +1,8 @@
+[submodule "tc37xpd"]
+	path = tc37xpd
+	url = ssh://git@bitbucket-server.software.htc:7999/rdp/crate-tc37xpd.git
+	branch = htc/master
+[submodule "tc3xx-service"]
+	path = tc3xx-service
+	url = ssh://git@bitbucket-server.software.htc:7999/rdp/crate-tc3xx-service.git
+	branch = htc/master

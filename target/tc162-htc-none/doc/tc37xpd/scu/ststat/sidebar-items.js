@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Farfuse_SPEC","Fcbae_SPEC","Fsioff_SPEC","Ludis_SPEC","Mode_SPEC","Otpoff_SPEC","Ramint_SPEC","Spden_SPEC","Stpovreq_SPEC","Subfuse_SPEC"],"type":["Farfuse","Fcbae","Fsioff","Ludis","Mode","Otpoff","Ramint","Spden","Stpovreq","Subfuse"]};

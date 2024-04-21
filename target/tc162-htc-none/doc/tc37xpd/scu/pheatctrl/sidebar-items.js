@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Heaton_SPEC"],"type":["Heaton"]};

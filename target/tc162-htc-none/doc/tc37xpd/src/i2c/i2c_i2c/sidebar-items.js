@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["i2cxdtr","i2cxerr","i2cxp"],"type":["I2CxDtr","I2CxErr","I2CxP"]};
