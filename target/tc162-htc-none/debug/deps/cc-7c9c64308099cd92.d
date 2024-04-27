@@ -1,0 +1,11 @@
+C:\Users\jeffe\Desktop\Project\tc375-freertos\target\tc162-htc-none\debug\deps\cc-7c9c64308099cd92.rmeta: C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\lib.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\windows\mod.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\windows\find_tools.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\command_helpers.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\tool.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\target_info.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\tempfile.rs
+
+C:\Users\jeffe\Desktop\Project\tc375-freertos\target\tc162-htc-none\debug\deps\cc-7c9c64308099cd92.d: C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\lib.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\windows\mod.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\windows\find_tools.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\command_helpers.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\tool.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\target_info.rs C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\tempfile.rs
+
+C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\lib.rs:
+C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\windows\mod.rs:
+C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\windows\find_tools.rs:
+C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\command_helpers.rs:
+C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\tool.rs:
+C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\target_info.rs:
+C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\cc-1.0.95\src\tempfile.rs:

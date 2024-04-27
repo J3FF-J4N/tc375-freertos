@@ -43,7 +43,8 @@ default-features = false
 version = "1.0.2"
 
 [features]
-default = ["p10"]
+#default = ["p10"]
+
 # You can enable or disable ports compiled into this and pac library with these features.
 # Port_00 is turned on default.
 port_all = [

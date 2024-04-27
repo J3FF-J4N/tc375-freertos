@@ -111,7 +111,7 @@ fn main() -> ! {
     let mut led2_state = false;
     let mut delay = Delay::new(tc375_bsp::SYSTEM_TIMER_FREQ_HZ);
     loop {
-        delay.delay_ms(1000_u32);
+        delay.delay_ms(10000_u32);
         led1.toggle();
         // if button1.is_pressed() {
         //     led2_state = !led2_state;

@@ -32,10 +32,16 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tc37x-hal = { path = "tc37x-hal" }
+tc37x-hal = { path = "tc37x-hal" , features = ["p10"] }
 
 embedded-hal = "0.2.7"
+#embedded-hal = "1.0.0"
 nb = "1.0.0"
+freertos-rust = "*"
+#freertos-cargo-build = "0.1.1"
+
+[build-dependencies]
+freertos-cargo-build = "*"
 
 [[example]]
 name = "blinking_led_1"
@@ -51,3 +57,5 @@ crate-type = ["bin"]
 name = "blinking_led_3"
 path = "examples/blinking_led_3.rs"
 crate-type = ["bin"]
+
+

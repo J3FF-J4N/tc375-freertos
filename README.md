@@ -1,3 +1,6 @@
+rustup override set tricore-htc-none-v1.0.0
+objcopy -O ihex ./target/tc162-htc-none/debug/examples/blinking_led_3.elf output.hex
+
 # TC375 Lite Kit BSP
 
 The TC375 Lite Kit BSP is a small functional project designed to simplify an evaluation phase of the
