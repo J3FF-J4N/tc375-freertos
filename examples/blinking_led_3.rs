@@ -92,6 +92,7 @@ use embedded_hal::timer::{Cancel, CountDown};
 use tc375_bsp::leds_and_buttons::{Button1, Led1, Led2};
 use tc37x_hal::timer::Timer;
 
+
 pre_init!(pre_init_fn);
 
 fn pre_init_fn() {

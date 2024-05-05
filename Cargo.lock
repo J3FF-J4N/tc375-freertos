@@ -21,8 +21,6 @@ dependencies = [
 [[package]]
 name = "freertos-cargo-build"
 version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b533d62038f3268b1110ee28a1c723dad204577c197b424666cb8d513ac1f931"
 dependencies = [
  "cc",
  "walkdir",
@@ -31,8 +29,6 @@ dependencies = [
 [[package]]
 name = "freertos-rust"
 version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8ed4d1f7356542cd640004f488cc41358ced96b1efab1fead3753d868a93d504"
 
 [[package]]
 name = "nb"
@@ -59,13 +55,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "tc375-bsp"
-version = "0.3.0"
+name = "tc375-freertos"
+version = "0.0.1"
 dependencies = [
  "embedded-hal",
  "freertos-cargo-build",
  "freertos-rust",
- "nb 1.1.0",
  "tc37x-hal",
 ]
 
