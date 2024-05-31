@@ -92,6 +92,12 @@ use embedded_hal::timer::{Cancel, CountDown};
 use tc375_bsp::leds_and_buttons::{Button1, Led1, Led2};
 use tc37x_hal::timer::Timer;
 
+use freertos_rust::*;
+
+use core::arch::asm;
+
+#[global_allocator]
+static GLOBAL: FreeRtosAllocator = FreeRtosAllocator;
 
 pre_init!(pre_init_fn);
 
@@ -113,23 +119,50 @@ entry!(main);
 
 fn main() -> ! {
     let mut led1 = Led1::new();
-    let mut led2 = Led2::new();
-    let button1 = Button1::new();
     let mut timer = Timer::new(tc375_bsp::SYSTEM_TIMER_FREQ_HZ);
 
     timer.start(500_u32);
-    let mut is_running = true;
+    // let mut is_running = true;
 
-    loop {
-        if let Ok(_) = timer.wait() {
-            led1.toggle();
-        }
+    //led1.set_on();
 
-        if button1.is_pressed() {
-            led2.toggle();
-            is_running = toggle_timer(&mut timer, is_running);
-        }
-    }
+    Task::new()
+        .name("Task1")
+        .stack_size(128)
+        .priority(TaskPriority(2))
+        .start(move |_| { 
+            loop {
+                if let Ok(_) = timer.wait() {
+                    led1.toggle();
+                }
+            }
+        })
+        .unwrap();
+ 
+    
+
+        // Task::new() 
+        // .name("Task2")
+        // .stack_size(128)
+        // .priority(TaskPriority(2))
+        // .start(move |_| {
+        //     loop {
+        //         if let Ok(_) = timer.wait() {
+        //             led1.set_on();
+        //         }
+        //     }
+        // })
+        // .unwrap();
+
+    //led1.set_off();
+
+    FreeRtosUtils::start_scheduler();
+
+    // loop {
+    //     if let Ok(_) = timer.wait() {
+    //         led1.toggle();
+    //     }
+    // }
 }
 
 fn toggle_timer(timer: &mut Timer, flag: bool) -> bool {
@@ -140,3 +173,44 @@ fn toggle_timer(timer: &mut Timer, flag: bool) -> bool {
     }
     !flag
 }
+
+// #[exception]
+// unsafe fn DefaultHandler(_irqn: i16) {
+//     asm::bkpt();
+//     loop {}
+// }
+
+// #[exception]
+// unsafe fn HardFault(_ef: &ExceptionFrame) -> ! {
+//     asm::bkpt();
+//     loop {}
+// }
+
+// // define what happens in an Out Of Memory (OOM) condition
+// #[alloc_error_handler]
+// fn alloc_error(_layout: Layout) -> ! {
+//     asm::bkpt();
+//     loop {}
+// }
+
+// #[no_mangle]
+// #[allow(non_snake_case)]
+// fn vApplicationStackOverflowHook(_pxTask: FreeRtosTaskHandle, _pcTaskName: FreeRtosCharPtr) {
+//     asm::bkpt();
+//     loop {}
+// }
+
+#[no_mangle]
+#[allow(non_snake_case)]
+fn vApplicationTickHook() {}
+
+#[no_mangle]
+#[allow(non_snake_case)]
+fn vApplicationIdleHook() {}
+
+// #[no_mangle]
+// #[allow(non_snake_case)]
+// fn vApplicationMallocFailedHook() {
+//     asm::bkpt();
+//     loop {}
+// }

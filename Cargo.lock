@@ -55,13 +55,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "tc375-freertos"
+name = "tc375-bsp"
 version = "0.0.1"
 dependencies = [
  "embedded-hal",
  "freertos-cargo-build",
  "freertos-rust",
  "tc37x-hal",
+ "tc37xpd",
 ]
 
 [[package]]
