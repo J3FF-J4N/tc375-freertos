@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["psi5sy"],"type":["Psi5Sy"]};

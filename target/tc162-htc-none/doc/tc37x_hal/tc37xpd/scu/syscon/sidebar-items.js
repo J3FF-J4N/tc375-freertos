@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Ddc_SPEC","Ramintm_SPEC"],"type":["Ddc","Ramintm"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["P00","SCU","SRC","STM0","STM1","STM2"],"mod":["common","p00","scu","src","stm0","stm1","stm2"]};

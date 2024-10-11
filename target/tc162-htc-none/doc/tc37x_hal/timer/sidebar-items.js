@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["__INTERRUPT_HANDLER_2","__INTERRUPT_HANDLER_3","__INTERRUPT_HANDLER_4"],"struct":["Timer"]};

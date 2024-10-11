@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Clkselmcan_SPEC","Clkselmsc_SPEC","Clkselqspi_SPEC","I2Cdiv_SPEC","Lck_SPEC","Mcandiv_SPEC","Mscdiv_SPEC","Pll1Divdis_SPEC","Qspidiv_SPEC"],"type":["Clkselmcan","Clkselmsc","Clkselqspi","I2Cdiv","Lck","Mcandiv","Mscdiv","Pll1Divdis","Qspidiv"]};

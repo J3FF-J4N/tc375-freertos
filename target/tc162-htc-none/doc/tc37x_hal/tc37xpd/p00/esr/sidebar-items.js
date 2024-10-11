@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["En0_SPEC","En10_SPEC","En11_SPEC","En12_SPEC","En13_SPEC","En14_SPEC","En15_SPEC","En1_SPEC","En2_SPEC","En3_SPEC","En4_SPEC","En5_SPEC","En6_SPEC","En7_SPEC","En8_SPEC","En9_SPEC"],"type":["En0","En1","En10","En11","En12","En13","En14","En15","En2","En3","En4","En5","En6","En7","En8","En9"]};

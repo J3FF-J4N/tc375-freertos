@@ -84,6 +84,7 @@ use tc37x_hal::tc3xx_service;
 
 use tc37x_hal::isr::load_interrupt_table;
 use tc37x_hal::wdtcon::{disable_cpu_watchdog, disable_safety_watchdog};
+use tc37xpd::scu::esrocfg::Arc;
 use tc3xx_service::asm_calls::enable_interrupts;
 use tc3xx_service::asm_calls::read_cpu_core_id;
 use tc3xx_service::{entry, post_init, pre_init};
@@ -95,6 +96,8 @@ use tc37x_hal::timer::Timer;
 use freertos_rust::*;
 
 use core::arch::asm;
+use core::borrow::{Borrow, BorrowMut};
+use embedded_hal::prelude;
 
 #[global_allocator]
 static GLOBAL: FreeRtosAllocator = FreeRtosAllocator;
@@ -119,6 +122,7 @@ entry!(main);
 
 fn main() -> ! {
     let mut led1 = Led1::new();
+    let mut led2 = Led2::new();
     let mut timer = Timer::new(tc375_bsp::SYSTEM_TIMER_FREQ_HZ);
 
     timer.start(500_u32);
@@ -126,11 +130,39 @@ fn main() -> ! {
 
     //led1.set_on();
 
+    
+
+   // Mutex::new(led1)
+    //let led_mutex = Arc::new();
+
+    
+
+    led2.set_on();
+
+    //(led_mutex.borrow() as Led1);
+
+    led1.set_off();
+
     Task::new()
         .name("Task1")
         .stack_size(128)
         .priority(TaskPriority(2))
         .start(move |_| { 
+            loop {
+                //if let Ok(_) = timer.wait() {
+                    //led1.toggle();
+                //}
+            }
+        })
+        .unwrap();
+ 
+    
+
+        Task::new() 
+        .name("Task2")
+        .stack_size(256)
+        .priority(TaskPriority(3))
+        .start(move |_| {
             loop {
                 if let Ok(_) = timer.wait() {
                     led1.toggle();
@@ -138,21 +170,6 @@ fn main() -> ! {
             }
         })
         .unwrap();
- 
-    
-
-        // Task::new() 
-        // .name("Task2")
-        // .stack_size(128)
-        // .priority(TaskPriority(2))
-        // .start(move |_| {
-        //     loop {
-        //         if let Ok(_) = timer.wait() {
-        //             led1.set_on();
-        //         }
-        //     }
-        // })
-        // .unwrap();
 
     //led1.set_off();
 

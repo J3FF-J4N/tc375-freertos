@@ -1,2 +1,0 @@
-cargo:rerun-if-changed=build.rs
-cargo:SHIM=C:\Users\jeffe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\freertos-rust-0.1.2\src/freertos

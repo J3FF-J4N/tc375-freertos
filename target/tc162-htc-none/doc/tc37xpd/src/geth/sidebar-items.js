@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["geth_geth"],"struct":["GethGeth"]};

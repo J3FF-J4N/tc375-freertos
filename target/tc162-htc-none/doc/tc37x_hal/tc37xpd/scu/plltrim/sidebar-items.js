@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["PerivrFiltDis_SPEC","SysivrFiltDis_SPEC"],"type":["PerivrFiltDis","SysivrFiltDis"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Arc_SPEC","Ari_SPEC"],"type":["Arc","Ari"]};

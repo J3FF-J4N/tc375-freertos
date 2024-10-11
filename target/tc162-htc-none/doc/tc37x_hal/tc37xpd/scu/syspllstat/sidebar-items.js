@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["By_SPEC","K2Rdy_SPEC","Lock_SPEC","Modrun_SPEC","Pwdstat_SPEC"],"type":["By","K2Rdy","Lock","Modrun","Pwdstat"]};

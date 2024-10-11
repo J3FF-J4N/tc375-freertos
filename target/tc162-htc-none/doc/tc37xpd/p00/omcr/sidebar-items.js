@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Pcl0_SPEC","Pcl10_SPEC","Pcl11_SPEC","Pcl12_SPEC","Pcl13_SPEC","Pcl14_SPEC","Pcl15_SPEC","Pcl1_SPEC","Pcl2_SPEC","Pcl3_SPEC","Pcl4_SPEC","Pcl5_SPEC","Pcl6_SPEC","Pcl7_SPEC","Pcl8_SPEC","Pcl9_SPEC"],"type":["Pcl0","Pcl1","Pcl10","Pcl11","Pcl12","Pcl13","Pcl14","Pcl15","Pcl2","Pcl3","Pcl4","Pcl5","Pcl6","Pcl7","Pcl8","Pcl9"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["vadccg0sr0","vadccg0sr1","vadccg0sr2","vadccg0sr3"],"type":["Vadccg0Sr0","Vadccg0Sr1","Vadccg0Sr2","Vadccg0Sr3"]};

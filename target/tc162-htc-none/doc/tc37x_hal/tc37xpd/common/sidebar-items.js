@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["EnumBitfieldStruct","R","RW","Reg","RegisterField","RegisterFieldBool","W"],"trait":["Access","NoBitfieldReg","Read","RegisterValue","Write"]};

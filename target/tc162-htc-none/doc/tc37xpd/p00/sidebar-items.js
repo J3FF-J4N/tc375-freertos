@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["accen0","esr","in","omcr","omcr0","omcr12","omcr4","omcr8","omr","omsr","omsr0","omsr12","omsr4","omsr8","out","pcsr","pdisc"],"struct":["P00"],"type":["Accen0","Esr","Id","In","Iocr0","Iocr12","Iocr4","Iocr8","Omcr","Omcr0","Omcr12","Omcr4","Omcr8","Omr","Omsr","Omsr0","Omsr12","Omsr4","Omsr8","Out","Pcsr","Pdisc","Pdr0","Pdr1"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["call_without_cpu_endinit","call_without_safety_endinit","clear_cpu_endinit","clear_safety_endinit","disable_cpu_watchdog","disable_safety_watchdog","set_cpu_endinit","set_safety_endinit"]};

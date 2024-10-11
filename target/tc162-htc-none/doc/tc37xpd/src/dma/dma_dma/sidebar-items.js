@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["dmachy","dmaerry"],"type":["DmacHy","DmaerRy"]};

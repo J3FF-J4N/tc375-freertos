@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Iradis_SPEC","Stbyeven_SPEC"],"type":["Iradis","Stbyeven"]};

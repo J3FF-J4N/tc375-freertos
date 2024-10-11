@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["i2c_i2c"],"struct":["I2CI2C"]};

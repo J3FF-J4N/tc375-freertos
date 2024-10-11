@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["hsct_hsct"],"struct":["HsctHsct"]};

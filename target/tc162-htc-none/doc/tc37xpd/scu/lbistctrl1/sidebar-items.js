@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Splitsh_SPEC"],"type":["Splitsh"]};

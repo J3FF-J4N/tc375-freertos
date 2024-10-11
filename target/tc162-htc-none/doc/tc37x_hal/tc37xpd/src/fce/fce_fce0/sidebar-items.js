@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["fce0"],"type":["Fce0"]};

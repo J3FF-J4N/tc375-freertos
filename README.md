@@ -41,7 +41,7 @@ This needs to be added:
 
        // b.flag_if_supported("-O0");
         b.remove_flag("-fpic");
-        b.flag("-O0");
+        b.flag("-O0"); //280 Is unoptimised
         b.flag("-ffunction-sections");
         b.flag("-fdata-sections");
         b.flag("-mcode-pic");

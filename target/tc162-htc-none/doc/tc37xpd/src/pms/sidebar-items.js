@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["pms_pms"],"struct":["PmsPms"]};

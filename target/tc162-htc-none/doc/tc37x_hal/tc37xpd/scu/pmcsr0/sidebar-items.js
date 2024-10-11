@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Pmst_SPEC","Reqslp_SPEC"],"type":["Pmst","Reqslp"]};

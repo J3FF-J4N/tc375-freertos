@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Lck_SPEC","Monen_SPEC","Montst_SPEC","Up_SPEC"],"type":["Lck","Monen","Montst","Up"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["SYSTEM_TIMER_FREQ_HZ"],"mod":["leds_and_buttons"]};

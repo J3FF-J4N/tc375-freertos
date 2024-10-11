@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Parts","Pin00","Pin01","Pin02","Pin03","Pin04","Pin05","Pin06","Pin07","Pin08","Pin09","Pin10","Pin11","Pin12","Pin13","Pin14","Pin15"]};

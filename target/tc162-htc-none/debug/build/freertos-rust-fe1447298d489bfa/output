@@ -1,2 +1,0 @@
-cargo:rerun-if-changed=build.rs
-cargo:SHIM=C:\Users\jeffe\Desktop\Project\tc375-freertos\FreeRTOS-rust\freertos-rust\src/freertos

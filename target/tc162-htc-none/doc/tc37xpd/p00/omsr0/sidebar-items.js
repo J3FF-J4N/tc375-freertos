@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Ps0_SPEC","Ps1_SPEC","Ps2_SPEC","Ps3_SPEC"],"type":["Ps0","Ps1","Ps2","Ps3"]};

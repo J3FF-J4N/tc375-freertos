@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Swboot_SPEC","Swrstreq_SPEC"],"type":["Swboot","Swrstreq"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["_exit","abort"],"macro":["entry","interrupt","post_init","pre_init"],"mod":["asm_calls","interrupt"]};

@@ -1,3 +1,0 @@
-(function() {var implementors = {
-"tc37x_hal":[["impl <a class=\"trait\" href=\"embedded_hal/timer/trait.Periodic.html\" title=\"trait embedded_hal::timer::Periodic\">Periodic</a> for <a class=\"struct\" href=\"tc37x_hal/timer/struct.Timer.html\" title=\"struct tc37x_hal::timer::Timer\">Timer</a>"]]
-};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

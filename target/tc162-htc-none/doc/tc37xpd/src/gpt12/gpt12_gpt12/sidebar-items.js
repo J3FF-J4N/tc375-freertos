@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["gpt120cirq","gpt120t2","gpt120t3","gpt120t4","gpt120t5","gpt120t6"],"type":["Gpt120Cirq","Gpt120T2","Gpt120T3","Gpt120T4","Gpt120T5","Gpt120T6"]};

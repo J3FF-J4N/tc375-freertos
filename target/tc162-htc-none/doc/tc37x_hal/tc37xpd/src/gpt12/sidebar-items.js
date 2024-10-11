@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["gpt12_gpt12"],"struct":["Gpt12Gpt12"]};

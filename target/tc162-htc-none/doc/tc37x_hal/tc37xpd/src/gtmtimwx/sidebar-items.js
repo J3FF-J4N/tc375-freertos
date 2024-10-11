@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["gtmtimwx_"],"type":["GtmtiMwx"]};

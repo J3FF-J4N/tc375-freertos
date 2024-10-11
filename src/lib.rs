@@ -96,14 +96,14 @@ pub mod leds_and_buttons {
     /// led2.toggle();
     /// ```
     pub struct Led2 {
-        pin: gpio::p10::Pin02,
+        pin: gpio::p00::Pin00,
     }
 
     impl Led2 {
         /// Configure Pin06 of Port_00 to output push-pull mode and return a new Led2 structure.
         pub fn new() -> Self {
-            let parts = tc37xpd::P10.split();
-            let mut pin = parts.pin02;
+            let parts = tc37xpd::P00.split();
+            let mut pin = parts.pin00;
             //Set the turn off bit in register before set the mode to output. This is for safety.
             pin.set_high().unwrap();
             //Set mode to output
