@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Clr_SPEC"],"type":["Clr"]};
